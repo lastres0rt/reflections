@@ -7,3 +7,17 @@ When a repository is initialized, it creates all of the underlying infrastructur
 HOW IS THE STAGING AREA DIFFERENT FROM THE WORKING DIRECTORY AND THE REPOSITORY? WHAT VALUE DO YOU THINK IT OFFERS?
 
 The "Staging Area" is an in-between point between the repository and the working directory, by allowing you to specify which files in the working directory need to be added to this particular commit (rather than just adding all the files in a given directory). This means that the Staging Area provides an added degree of control over what goes into the repository each time.
+
+----
+
+Holy cats, I found an error in the Udacity Course Notes! Making this change to see if I fixed the error: 
+
+http://remotemanifesto.com/productivity/2014/01/31/git-commit-messages-in-sublime-after-textmate.html
+
+... no, that didn't work.
+
+----
+
+HOW CAN YOU USE THE STAGING AREA TO MAKE SURE YOU HAVE ONE COMMIT PER LOGICAL CHANGE?
+
+By using the staging area, it forces you to decide which files do and don't need to be added in order to make a "logical change". It can also prevent you from committing files that aren't ready yet.
