@@ -1,0 +1,9 @@
+WHAT HAPPENS WHEN YOU INITIALIZE A REPOSITORY? WHY DO YOU NEED TO DO IT?
+
+When a repository is initialized, it creates all of the underlying infrastructure you need to begin keeping track of commits and changes to a git repository. However, it doesn't contain any of the files that repository is designed to keep track of -- just the basic layout. It needs to be initialized so the structure is there for when the first commits are made and so there isn't a huge amount of overhead for that initial commit when it comes to "making the first commit" to a new repository.
+
+-----
+
+HOW IS THE STAGING AREA DIFFERENT FROM THE WORKING DIRECTORY AND THE REPOSITORY? WHAT VALUE DO YOU THINK IT OFFERS?
+
+The "Staging Area" is an in-between point between the repository and the working directory, by allowing you to specify which files in the working directory need to be added to this particular commit (rather than just adding all the files in a given directory). This means that the Staging Area provides an added degree of control over what goes into the repository each time.

@@ -1,0 +1,59 @@
+REFLECTIONS: 
+
+Using diff seems like an easy way to find bugs — but I like how I’ve seen other people use it where it actually compares the two versions side by side with highlighting rather than using it via the command line. While diff is useful, using it with the command line is… cumbersome.
+
+There should be a better way to do this sort of comparison.
+
+-----
+
+HOW COULD HAVING EASY ACCESS TO THE ENTIRE HISTORY OF A FILE MAKE YOU A MORE EFFICIENT PROGRAMMER IN THE LONG TERM?
+
+The most obvious answer is "seeing what parts were added where" is useful -- similar to using screenshots.com to see the evolution of various people's webpages over time and how they evolved into their current forms (so you can learn from them and what they tried at various stages), ideally to avoid making similar mistakes in future work.
+
+A less obvious answer is that sometimes things get screwed up in such an obviously bad way that it's just easier to go back to the version that worked before -- or to at least reference back to what was taken out previously so things can be re-integrated into the current version.
+
+----- 
+
+WHAT DO YOU THINK ARE THE PROS AND CONS OF MANUALLY CHOOSING WHEN TO CREATE A COMMIT, LIKE YOU DO IN GIT, VS HAVING VERSIONS AUTOMATICALLY SAVED, LIKE GOOGLE DOCS DOES?
+
+Pros of Manual Commits: 
+	+ All commits make sense when reviewed later (you know why you did stuff)
+	+ Easier to remember what happened in each commit
+	+ Each commit represents a fully-fuctional version of the code (most of the time)
+
+Cons of Manual Commits: 
+	- Information might be lost if you didn't save often enough. 
+	- Have to judge whether or not a commit is the right size (remember, it's easier to deal with commits that're too small than too big)
+	- Have to think about committing vs. just doing it
+
+-----
+
+WHY DO YOU THINK SOME VERSION CONTROL SYSTEMS, LIKE GIT, ALLOW SAVING MULTIPLE FILES IN ONE COMMIT, WHILE OTHERS, LIKE GOOGLE DOCS, TREAT EACH FILE SEPARATELY?
+
+One group has an expectation that files work together, and the other doesn't.
+
+In a coding project, it's reasonable to assume that class [A] has dependencies in library [B] using a parent class [C] ... and so on. 
+
+In Google Docs, it's assumed that each item is a stand-alone item -- a letter, a spreadsheet, a picture, a powerpoint presentation -- such that there are no dependencies between the lot. 
+
+-----
+
+HOW CAN YOU USE THE COMMANDS "GIT LOG" AND "GIT DIFF" TO VIEW THE HISTORY OF FILES?
+
+When trying to keep track of previous changes, "git log" is good for seeing what changes had been made (and what text you included with those changes). 
+
+When it comes to comparing between commit versions, "git diff" allows you to skip multitudes of code in order to get to the heart of what actually changed between commits.
+
+-----
+
+HOW MIGHT USING VERSION CONTROL MAKE YOU MORE CONFIDENT TO MAKE CHANGES THAT COULD BREAK SOMETHING?
+
+Easy! Version control is like a giant undo button for a project -- if massive project-breaking bugs appear, it's trivial to go back to the last "safe" version of the code. 
+
+-----
+
+NOW THAT YOU HAVE YOUR WORKSPACE SET UP, WHAT DO YOU WANT TO TRY USING GIT FOR?
+
+Well, I have this idea for a visual novel game using Ren'Py... having the version control would be good for a game like this that's likely to have lots of interrelated components all working together. 
+
+I'm mostly taking this course to bolster my Front End Nanodegree -- version control seems like something that will make my work go a lot faster, and allow me to focus on the parts I like doing rather than debugging everything.
