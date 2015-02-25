@@ -41,3 +41,9 @@ Diagrams help visualize just how much work has been done at various points of th
 WHAT IS THE RESULT OF MERGING TWO BRANCHES TOGETHER? WHY DO WE REPRESENT IT IN THE DIAGRAM THE WAY WE DO?
 
 The result of merging two branches together is that the merging software removes whatever was originally removed, adds what was added, and retains whatever stayed the same, and also makes the new merged branch the new head of those two branches (which complicates looking back at the old work, but can still be done using "git show" rather than just comparing based on timestamps). It's represented in the diagram the way we do it because the timelines of those two branches still exist, but they've now been combined to continue in just one timeline.
+
+----
+
+WHAT ARE THE PROS AND CONS OF GIT’S AUTOMATIC MERGING VS. ALWAYS DOING MERGES MANUALLY?
+
+While automatic merging allows you to quickly merge two branches and continue onward, manual merging ensures that everything is seen by human eyes to prevent erratic changes in a file that might render it unusable.
