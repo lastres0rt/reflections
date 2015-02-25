@@ -18,6 +18,8 @@ http://remotemanifesto.com/productivity/2014/01/31/git-commit-messages-in-sublim
 
 I'm just going to have to -m "Comment" all my commits until I can find a solution to this.
 
+Apparently I needed to have the full alias, according to this one person...
+
 ----
 
 HOW CAN YOU USE THE STAGING AREA TO MAKE SURE YOU HAVE ONE COMMIT PER LOGICAL CHANGE?
