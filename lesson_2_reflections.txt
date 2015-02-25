@@ -16,8 +16,28 @@ http://remotemanifesto.com/productivity/2014/01/31/git-commit-messages-in-sublim
 
 ... no, that didn't work.
 
+I'm just going to have to -m "Comment" all my commits until I can find a solution to this.
+
 ----
 
 HOW CAN YOU USE THE STAGING AREA TO MAKE SURE YOU HAVE ONE COMMIT PER LOGICAL CHANGE?
 
 By using the staging area, it forces you to decide which files do and don't need to be added in order to make a "logical change". It can also prevent you from committing files that aren't ready yet.
+
+----
+
+WHAT ARE SOME SITUATIONS WHEN BRANCHES WOULD BE HELPFUL IN KEEPING YOUR HISTORY ORGANIZED? HOW WOULD BRANCHES HELP?
+
+Branches make sense when making changes that shouldn't be committed to the master branch, at least not right away -- because the changes are experimental or otherwise dramatically different from the original (such as adding new features or a different mode of the software) that it makes sense to seperate them from the rest of the changes being made.
+
+----
+
+HOW DO THE DIAGRAMS HELP YOU VISUALIZE THE BRANCH STRUCTURE?
+
+Diagrams help visualize just how much work has been done at various points of the process and how "far back" they diverged from the original master branch. It's useful for seeing just how different certain variants are from the master branch, especially when merging branches back in later on.
+
+-----
+
+WHAT IS THE RESULT OF MERGING TWO BRANCHES TOGETHER? WHY DO WE REPRESENT IT IN THE DIAGRAM THE WAY WE DO?
+
+The result of merging two branches together is that the merging software removes whatever was originally removed, adds what was added, and retains whatever stayed the same, and also makes the new merged branch the new head of those two branches (which complicates looking back at the old work, but can still be done using "git show" rather than just comparing based on timestamps). It's represented in the diagram the way we do it because the timelines of those two branches still exist, but they've now been combined to continue in just one timeline.
