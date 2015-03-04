@@ -1,3 +1,3 @@
 WHEN WOULD YOU WANT TO USE A REMOTE REPOSITORY RATHER THAN KEEPING ALL YOUR WORK LOCAL?
 
-Having a local repository makes sense if you're sharing code between multiple machines or multiple users. In addition, for resume and portfolio purposes, having a remote repository allows you to show off your code for review by others!
+Having a local repository makes sense if you're sharing code between multiple machines (even if it's as simple as working between your iPad and your laptop) or multiple users in an organization or a company. In addition, for resume and portfolio purposes, having a remote repository allows you to show off your code for review by others!
