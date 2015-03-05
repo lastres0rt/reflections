@@ -1,3 +1,9 @@
 WHEN WOULD YOU WANT TO USE A REMOTE REPOSITORY RATHER THAN KEEPING ALL YOUR WORK LOCAL?
 
 Having a local repository makes sense if you're sharing code between multiple machines (even if it's as simple as working between your iPad and your laptop) or multiple users in an organization or a company. In addition, for resume and portfolio purposes, having a remote repository allows you to show off your code for review by others!
+
+-----
+
+WHY MIGHT YOU WANT TO ALWAYS PULL CHANGES MANUALLY RATHER THAN HAVING GIT AUTOMATICALLY STAY UP-TO-DATE WITH YOUR REMOTE REPOSITORY?
+
+Manual pulls might be annoying, but the assumption is that whatever version you have in your remote repository is the version you want people to see (or pull from, if they're cohorts). Just because you've been working on a project doesn't mean that your version perfectly matches what's in the remote repository, and vice versa. Pulling changes when you're still working on something important might mean things get wiped out if you've been working on new features.
