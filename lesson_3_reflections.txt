@@ -17,3 +17,9 @@ A FORK: a copy of someone else's repository on GitHub where you've duplicated an
 A CLONE: a copy of an already-existing repository that doesn't require any changes in permissions (often onto your own machine so you can use and alter the code locally). You can clone other people's repositories, but you can't push your changes to their repositories on GitHub without permission. (You can also clone your own repositories, either to another location on your computer or from your own GitHub repo). 
 
 A BRANCH: an "alternative" timeline of commits that allow you to develop experimental features or settings independent of the repository's main timeline. Branches exist inside repositories, but they allow for multiple simultaneous "heads" in the same way forking and cloning allows for multiple heads to exist. 
+
+-----
+
+WHAT IS THE BENEFIT OF HAVING A COPY OF THE LAST KNOWN STATE OF THE REMOTE STORED LOCALLY?
+
+When dealing with changes between a local repo or a branch and the master, it can be useful to go ahead and store the last known state of the remote locally so you can merge to it without overwriting either by accident or causing conflicts. Also, if you're going to be offline for some time, having a local copy of the repo means you can work on it at any point between when you've fetched it and when you'll be available online again -- even if it's changed in that time frame, it'll be much easier to merge changes if you've already taken an earlier state of the merge into account.
