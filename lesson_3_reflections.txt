@@ -7,3 +7,13 @@ Having a local repository makes sense if you're sharing code between multiple ma
 WHY MIGHT YOU WANT TO ALWAYS PULL CHANGES MANUALLY RATHER THAN HAVING GIT AUTOMATICALLY STAY UP-TO-DATE WITH YOUR REMOTE REPOSITORY?
 
 Manual pulls might be annoying, but the assumption is that whatever version you have in your remote repository is the version you want people to see (or pull from, if they're cohorts). Just because you've been working on a project doesn't mean that your version perfectly matches what's in the remote repository, and vice versa. Pulling changes when you're still working on something important might mean things get wiped out if you've been working on new features.
+
+-----
+
+DESCRIBE THE DIFFERENCES BETWEEN FORKS, CLONES, AND BRANCHES. WHEN WOULD YOU USE ONE INSTEAD OF ANOTHER?
+
+A FORK: a copy of someone else's repository on GitHub where you've duplicated and deviated your work from theirs so you can work on it and alter it without affecting their version of the work. A fork is similar to a branch in that it deviates from the original repository, but forks are used on repositories not under your control. Forking is specific to GitHub (or at least much more difficult to do without it), while cloning and branching can be done locally.
+
+A CLONE: a copy of an already-existing repository that doesn't require any changes in permissions (often onto your own machine so you can use and alter the code locally). You can clone other people's repositories, but you can't push your changes to their repositories on GitHub without permission. (You can also clone your own repositories, either to another location on your computer or from your own GitHub repo). 
+
+A BRANCH: an "alternative" timeline of commits that allow you to develop experimental features or settings independent of the repository's main timeline. Branches exist inside repositories, but they allow for multiple simultaneous "heads" in the same way forking and cloning allows for multiple heads to exist. 
