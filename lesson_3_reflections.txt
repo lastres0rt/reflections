@@ -23,3 +23,13 @@ A BRANCH: an "alternative" timeline of commits that allow you to develop experim
 WHAT IS THE BENEFIT OF HAVING A COPY OF THE LAST KNOWN STATE OF THE REMOTE STORED LOCALLY?
 
 When dealing with changes between a local repo or a branch and the master, it can be useful to go ahead and store the last known state of the remote locally so you can merge to it without overwriting either by accident or causing conflicts. Also, if you're going to be offline for some time, having a local copy of the repo means you can work on it at any point between when you've fetched it and when you'll be available online again -- even if it's changed in that time frame, it'll be much easier to merge changes if you've already taken an earlier state of the merge into account.
+
+-----
+
+HOW WOULD YOU COLLABORATE WITHOUT USING GIT OR GITHUB? WHAT WOULD BE EASIER, AND WHAT WOULD BE HARDER?
+
+Without using git or github, there would need to be some form of version control, and likely it would need to be something that everyone involved can agree upon -- something like Dropbox or emailing, which would also have the benefit of keeping track of files and/or making sure we're all sharing the same code.
+
+It would be easier in that everyone would know what they're doing, but harder in that the changes might not make sense, or differing versions would be harder to keep track of and merge together, and possibly someone would have the most 'up to date' version while the rest of us don't, and waiting on them to propagate the changes would cost time.
+
+Git and GitHub might be tricky to learn at first, but at least you can be reasonably certain there's a working version of the code somewhere in there when you go to fetch it.
