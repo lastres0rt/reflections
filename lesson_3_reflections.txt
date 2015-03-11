@@ -32,4 +32,12 @@ Without using git or github, there would need to be some form of version control
 
 It would be easier in that everyone would know what they're doing, but harder in that the changes might not make sense, or differing versions would be harder to keep track of and merge together, and possibly someone would have the most 'up to date' version while the rest of us don't, and waiting on them to propagate the changes would cost time.
 
-Git and GitHub might be tricky to learn at first, but at least you can be reasonably certain there's a working version of the code somewhere in there when you go to fetch it.
+Git and GitHub might be tricky to use at first, but at least you can be reasonably certain there's a working version of the code somewhere in there when you go to fetch it.
+
+-----
+
+WHEN WOULD YOU WANT TO MAKE CHANGES IN A SEPARATE BRANCH RATHER THAN DIRECTLY IN MASTER? WHAT BENEFITS DOES EACH APPROACH HAVE?
+
+Making changes in a seperate branch allows you to work independently on a project with other people -- since there's a certain level of expectation that the master branch remain functional, this process removes the likelihood that unknown (and unwanted) changes will occur in master.
+
+However, it also adds a level of bureaucracy that may make collaboration difficult (especially if someone else is needed to give their permission in order to make changes) -- while it's possible to fork in order to prevent someone from completely preventing you from working on a certain piece of code, larger companies and certain open-source projects may suffer as a result if people are unwilling to work with each other. (This is a known issue with larger projects where it can be increasingly difficult to collaborate on a project, especially for newcomers.)
