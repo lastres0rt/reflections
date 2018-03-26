@@ -6,3 +6,5 @@ Reflections Repository for Udacity's Git and Github course. 🎓 🥃
 All this is doing here is demonstrating my ability to use Git and Github. 💯
 
 The reflections are in a question-and-answer format. 👍
+
+This project is currently inactive.
